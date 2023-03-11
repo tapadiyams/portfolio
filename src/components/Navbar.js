@@ -60,7 +60,7 @@ export default function Navbar() {
                 )}
 
                 {/* Content on NavBar */}
-                <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                {!isMobile && (<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex space-x-3">
                     {navigation.map((item) => (
                       <a
@@ -77,6 +77,7 @@ export default function Navbar() {
                     ))}
                   </div>
                 </div>
+                )}
 
                 {/* Right side content on NavBar */}
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
