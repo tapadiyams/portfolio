@@ -28,7 +28,7 @@ export default function Navbar() {
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
               <div className="relative flex h-16 items-center justify-between">
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                  {/* Mobile menu button*/}
+                  {/* Mobile menu button -> Create a toggle button */}
                   <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
@@ -60,14 +60,23 @@ export default function Navbar() {
 
                 {/* Right side content on NavBar */}
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                  {/* Profile dropdown */}
+                  {/* Note: 
+                        target="_blank" --> this will open a new window */}
+                  <a href="./Docs/Resume.pdf" target="_blank">
+                    {/* Note: 
+                          mr-4 --> To add space between two buttons, you can add a margin-right to the first button or a margin-left to the second button. Here we are adding a 4-pixel margin between the two buttons. */}
+                      <button class="text-sm font-medium bg-transparent hover:opacity-75 text-green-400 font-semibold py-2 px-4 border border-green-400 mr-4 rounded">
+                          Resume
+                      </button>
+                  </a>
+                  {/* Profile picture dropdown */}
                   <Menu as="div" className="relative ml-3">
                     <div>
                       <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                         <span className="sr-only">Open user menu</span>
                         <img
                           className="h-8 w-8 rounded-full"
-                          src="./profile.jpg"
+                          src="./Images/profile.jpg"
                           alt=""
                         />
                       </Menu.Button>
@@ -88,7 +97,7 @@ export default function Navbar() {
                               href="https://drive.google.com/drive/folders/1WK9sRkrY3OQVFIAc_WPxsGk3U86qZKpo?usp=sharing#"
                               className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                             >
-                              Resume and docs
+                              More data
                             </a>
                           )}
                         </Menu.Item>
