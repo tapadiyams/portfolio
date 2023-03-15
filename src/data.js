@@ -61,53 +61,97 @@ export const projects = [
 
 
   // skills
-
-  export const pl_skills = [
-    "Java",
-    "Python",
-    "Golang",
-    "C",
-    "C++",
-    "Bash Scripting",
-    "JSON",
-    "Regex Expression"
-  ];
-
-  export const db_skills = [
-    "MongoDB",
-    "MySQL",
-    "Postgres",
-    "H2"
-  ];
-
-  export const web_skills = [
-    "HTML,",
-    "CSS",
-    "Bootstrap",
-    "JavaScript",
-    "React.js",
-    "Node.js",
-    "REST API",
-    "Apache Tomcat",
-    // "Ruby on Rails"
-  ];
-
-  export const pt_skills = [
-    "LoadRunner,",
-    "Wireshark,",
-    "Flexible IO Tester (FIO)",
-    "EasyMock (Unit Test Framework)"
-  ];
-
-  export const others_skills = [
-    "AWS,",
-    "GIT",
-    "Linux",
-    "Kafka",
-    "Docker",
-    "Kubernetes",
-    "Spring Boot",
-    "Maven",
-    "JIRA",
-    "Microsoft Office Suite"
+  export const skills = [
+    {
+      title: "Cloud Technology",
+      elements:[
+        "AWS"
+      ]
+    },
+    {
+      title: "Containerization (DevOps Tools)",
+      elements:[
+        "Kubernetes",
+        "Docker"
+      ]
+    },
+    {
+      title: "Methodology",
+      elements:[
+        "JIRA (Agile)",
+        "Jenkins (CI/CD)"
+      ]
+    },
+    {
+      title: "Architectural Patterns",
+      elements:[
+        "Microservices",
+        "Monolithic"
+      ]
+    },
+    {
+      title: "APIs",
+      elements:[
+        "REST API",
+        "JSON"
+      ]
+    },
+    {
+      title: "VCS",
+      elements:[
+        "GITHUB"
+      ]
+    },
+    {
+      title: "Caching",
+      elements:[
+       "Redis"
+      ]
+    },
+    {
+      title: "Testing",
+      elements:[
+        "LoadRunner (Performance Testing)",
+        "Wireshark (Performance Testing)",
+        "Flexible IO Tester (FIO) (Performance Testing)",
+        "EasyMock (Unit Testing)"
+      ]
+    },
+    {
+      title: "Web Skills and Frameworks",
+      elements:[
+        "HTML,",
+        "CSS",
+        "Bootstrap",
+        "React.js",
+        "Node.js",
+        "JavaScript",
+      ]
+    },
+    {
+      title: "Database",
+      elements:[
+        "MongoDB (Non-Relational)",
+        "MySQL (Relational)",
+        "Postgres (Relational)"
+      ]
+    },
+    {
+      title: "Programming Language",
+      elements:[
+        "Java",
+        "Python",
+        "C",
+        "C++",
+        "Bash Scripting",
+      ]
+    },
+    {
+      title: "Other Tools",
+      elements:[
+        "Linux",
+        "Spring Boot",
+        "Maven"
+      ]
+    },
   ];

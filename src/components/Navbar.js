@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react'
+import React, { Fragment, useState , componentDidMount, componentDidUpdate} from 'react'
 import { Disclosure, Menu, Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
@@ -6,7 +6,7 @@ const navigation = [
   { name: 'About', href: '#about', current: false },
   { name: 'Industry Experience', href: '#experiences', current: false },
   { name: 'Projects', href: '#projects', current: false },
-  { name: 'Skills', href: '#skills', current: false },
+  // { name: 'Skills', href: '#skills', current: false },
 ]
 
 function classNames(...classes) {
@@ -16,7 +16,14 @@ function classNames(...classes) {
 export default function Navbar() {
   const [isMobile, setIsMobile] = useState(false)
 
-  // function to handle window resize
+  // componentDidMount = () => {
+  //   window.location.reload(false)
+  // }
+  // componentDidUpdate = () => {
+  //   window.location.reload(true)
+  // }
+
+  // function to handle window resize -- this is used when dwitching from dsk to mobile
   const handleResize = () => {
     if (window.innerWidth < 640) {
       setIsMobile(true)
@@ -59,7 +66,7 @@ export default function Navbar() {
                 </div>
                 )}
 
-                {/* Content on NavBar */}
+                {/* Content on NavBar for desktop*/}
                 {!isMobile && (<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex space-x-3">
                     {navigation.map((item) => (
