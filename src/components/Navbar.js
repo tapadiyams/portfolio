@@ -6,7 +6,6 @@ const navigation = [
   { name: 'About', href: '#about', current: false },
   { name: 'Industry Experience', href: '#experiences', current: false },
   { name: 'Projects', href: '#projects', current: false },
-  // { name: 'Skills', href: '#skills', current: false },
 ]
 
 function classNames(...classes) {
@@ -15,13 +14,6 @@ function classNames(...classes) {
 
 export default function Navbar() {
   const [isMobile, setIsMobile] = useState(false)
-
-  // componentDidMount = () => {
-  //   window.location.reload(false)
-  // }
-  // componentDidUpdate = () => {
-  //   window.location.reload(true)
-  // }
 
   // function to handle window resize -- this is used when dwitching from dsk to mobile
   const handleResize = () => {

@@ -13,6 +13,9 @@ export default function Contact() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Contact Information
           </h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            "There is no way to find out if someone is deservable without actually knowing them." -Shubham Tapadiya
+          </p>
         </div>
       </div>
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">

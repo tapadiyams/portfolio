@@ -10,13 +10,13 @@ export default function Experiences() {
     <section id="experiences" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         {/* Title */}
-        <div className="flex flex-col w-full mb-20">
+        <div className="flex flex-col w-full mb-10">
           <FontAwesomeIcon icon={faLaptopCode} className="inline-block mb-2"  size="xl" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Industry Experiences
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            This section contains details of my professional experience in the world of IT 
+            "Some of the brightest minds in the country can be found on the last benches of the classroom." -Dr. APJ Abdul Kalam
           </p>
         </div>
         {/* Exp Content */}
