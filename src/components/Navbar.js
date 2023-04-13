@@ -32,12 +32,6 @@ export default function Navbar() {
   }, [])
 
   return (
-    // Notes:
-    // "z-50" is a CSS class that sets the "z-index" property to "50". 
-    // The "z-index" property determines the stack order of elements on a web page.
-    // Elements with a higher "z-index" value appear on top of elements with a lower "z-index" value. 
-    // So, in this case, adding "z-50" to a class means that the element with that class will appear above elements with 
-    // a lower "z-index" value.
     <Popover className='sticky top-0 z-50'>
       <Disclosure as="nav" className="bg-gray-800">
         {({ open }) => (

@@ -4,31 +4,14 @@ export const experiences = [
   {
     title: "Software Development Engineer",
     subtitle: "Amazon Web Services (AWS)",
-    description:[
-      "Delivered OpenZFS SAZ File Server to customers in a cloud environment on the FSx team",
-      "Worked on the development of the highly available file system offering",
-      "Improved operational posture by developing tools and procedures for operators",
-      "Implemented security tests across FSx engines to ensure customer authentication in the FSx API",
-      "Designed and implemented customer console experience for OpenZFS SAZ filesystem and developed internal operational website for tracking progress of Volumes and Snapshots which increased the efficiency for operators and customer by 90%",
-      "Developed SQL queries to improve the database efficiency, reduce data load time and enhance performance",
-      "Performed deep packet inspection using Wireshark to assist in testing and troubleshooting of EC2 instance server",
-      "Mentored two interns to deliver CPU/Memory Utilization metrics in AWS CloudWatch and Scale Storage from Backups",
-      "Operated on highly visible customer-facing issues such as kernel deadlock due to stuck Transaction Groups (TXGs) in quiesce state and handle file system creates due to Amazon Elastic Block Store (EBS) insufficient capacity",
-      "Ensured development quality is being tracked and improved using testing frameworks like EasyMock and JMockit",
-      "Utilized other AWS Services: EC2, EBS, CloudWatch, CloudFormation, CodeDeploy, SWF, S3, Secrets Manager, Lambda and VPC"
-    ],
+    description:"As part of the FSx team, I successfully delivered an OpenZFS SAZ File Server in a cloud environment. I played a key role in developing a highly available file system offering, including configuring data replication between EC2 instances, designing a robust API, and conducting performance testing. I improved operational security through access controls, scoping SLR policies, and conducting security tests. I also optimized SQL queries, performed deep packet inspection, mentored interns, and implemented GitLab for version control. I utilized various AWS services to support the development and deployment of the file server.",
     image: "",
     link: "",
   },
   {
-    title: "Software Engineer (Non-Profit Volunteer)",
+    title: "Philanthropic Software Engineer",
     subtitle: "AJ Investment",
-    description:[
-      "Expanded an investment central control and configuration system that collated investors and company’s information for utilizing capitals which contributed to overall profitability",
-      "Deployed and optimized the application to run on Kubernetes which resulted in observable cost reduction",
-      "Involved in team project for the development of pre-existing software to analyze current market investments",
-      "Integrated and managed infrastructure and systems engineering and technologies using Kafka"
-    ],
+    description:"I played a key role in expanding an investment central control and configuration system, which allowed for efficient collation of investors and company information to better utilize capital and improve overall profitability. Additionally, I containerized the application using Kubernetes, resulting in improved scalability and fault tolerance, and contributing to cost reductions. I also participated in a team project focused on analyzing current market investments using pre-existing software.",
     image: "",
     link: "",
   },
@@ -38,23 +21,29 @@ export const projects = [
     {
       title: "Road Symbols Detection",
       subtitle: "OpenCV Library, Python",
-      description:[
-        "Programmed an application in Python to identify road symbols for maintaining safe driving conditions with the precision at 85%",
-        "Applied OpenCV for image transformations with masking technique (bitwise operations) to focus on the important part of the image",
-        "Compared the processed image with set of road symbol images to correctly classify the label of it"
-      ],
-      image: "",
+      description:"I developed a Python application that uses image processing techniques to identify road symbols with a high precision rate of 85%. I utilized OpenCV for image transformations, including masking techniques using bitwise operations to focus on the important parts of the image. The processed image was then compared with a set of road symbol images to accurately classify the label of the road symbol. This application has the potential to contribute to maintaining safe driving conditions by identifying road symbols effectively and efficiently.",
+      image: "./Images/Projects/road_symbol_detection.jpg",
       link: "",
+    },
+    {
+      title: "LinkedIn Clone: A ReactJS and Firebase Powered Professional Networking Application",
+      subtitle: "Reactjs, Firebase",
+      description:"A LinkedIn clone was built using ReactJS and Firebase, replicating the functionality of the professional networking platform. ReactJS was used for the front-end, creating a responsive user interface, while Firebase served as the back-end for real-time data storage. Features included user authentication, profile creation/editing, post creation/commenting, and real-time updates. The project combined modern web development technologies to create a functional replica of LinkedIn.",
+      image: "./Images/Projects/linkedin_clone.jpg",
+      link: "https://github.com/TapadiyaMS/linkedin-clone",
+    },
+    {
+      title: "",
+      subtitle: "Reactjs, Firebase",
+      description:"Created a portfolio website to showcase my skills and work, utilizing ReactJS and Tailwind CSS for building the user interface. The use of reusable components in React allows for easy composition of landing page sections and potential future feature additions, such as a blog. Tailwind CSS is used for styling, allowing for professional and customizable appearance with combined classnames on React elements. The website is hosted on Netlify, a free service that serves the project on a custom domain with the help of a content delivery network (CDN), ensuring fast and efficient loading for users.",
+      image: "./Images/Projects/portfolio.jpg",
+      link: "https://github.com/TapadiyaMS/portfolio",
     },
     {
       title: "Hotel Accreditation and Sentimental Analysis with Machine Learning",
       subtitle: "Python-Google Colaboratory, NoSQL",
-      description:[
-        "Constructed an application which performed Multi-layer Perceptron, Support Vector Machine and K-Nearest Neighbor that gave the dominant aspects / labels of the reviews by the guests stored in database using NoSQL",
-        "Implemented GridSearchCV, which perceived the best possible parameters for MLP Algorithm and that resulted in 92% of accuracy",
-        "Applied VaderSentiment Library, to perform sentiment analysis on the reviews of the guests"
-      ],
-      image: "",
-      link: "",
+      description:"An application was constructed to perform Multi-layer Perceptron, Support Vector Machine, and K-Nearest Neighbor analysis on guest reviews stored in a NoSQL database. GridSearchCV was implemented to identify the optimal parameters for the MLP algorithm, resulting in an accuracy rate of 92%. Additionally, the VaderSentiment Library was utilized to perform sentiment analysis on the guest reviews, providing valuable insights into the sentiment expressed in the reviews.",
+      image: "./Images/Projects/sentimental_analysis.jpg",
+      link: "https://github.com/TapadiyaMS/Hotel_Accreditation_Text_Mining",
     },
   ];

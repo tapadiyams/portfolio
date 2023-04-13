@@ -15,7 +15,7 @@ export default function About() {
             </p>
             Shubham Tapadiya
             <p className="leading-relaxed text-base text-gray-400 bg-gray-900 py-5"> 
-              I am a Software Engineer with demonstrated experience in full stack development. I show expertise in designing and development of high-quality client solutions.
+              As a seasoned Software Engineer, I possess a proven track record in full stack development, showcasing my expertise in designing and developing top-notch client solutions.
             </p>
           </h1>
           <div className="flex justify-center space-x-8">
@@ -34,7 +34,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./coding.svg"
+            src="./Images/coding.svg"
           />
         </div>
       </div>

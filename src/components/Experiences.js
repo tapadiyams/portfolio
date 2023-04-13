@@ -31,11 +31,9 @@ export default function Experiences() {
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {experience.title}
                   </h1>
-                  <ul className="list-disc " style={{textAlign: 'left', paddingLeft: 0}} >
-                    {experience.description.map((point) => (
-                      <li className="leading-relaxed">{point}</li>
-                    ))}
-                  </ul>
+                  <h2 className="list-disc " style={{textAlign: 'left', paddingLeft: 0}} >
+                    { experience.description }
+                  </h2>
                 </div>
               </div>
             </div>
