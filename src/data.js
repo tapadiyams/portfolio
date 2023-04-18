@@ -19,7 +19,7 @@ export const experiences = [
 
 export const projects = [
     {
-      title: "Road Symbol Recognition: A High-Precision Python Application for Identifying Road Symbols Using Image Processing Techniques with OpenCV",
+      title: "Road Symbol Recognition: Efficient Python App for Identifying Road Symbols with OpenCV",
       subtitle: "OpenCV Library, Python",
       description:"I developed a Python application that uses image processing techniques to identify road symbols with a high precision rate of 85%. I utilized OpenCV for image transformations, including masking techniques using bitwise operations to focus on the important parts of the image. The processed image was then compared with a set of road symbol images to accurately classify the label of the road symbol. This application has the potential to contribute to maintaining safe driving conditions by identifying road symbols effectively and efficiently.",
       image: "./Images/Projects/road_symbol_detection.jpg",
