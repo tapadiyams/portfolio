@@ -127,9 +127,9 @@ export default function About() {
             </motion.a>
           </motion.div>
 
-          {/* CTA Button */}
-          <motion.div variants={itemVariants} className="mt-8">
-            <a href="./Docs/Shubham Tapadiya Resume.pdf" target="_blank" rel="noopener noreferrer">
+           {/* CTA Button */}
+           <motion.div variants={itemVariants} className="mt-8">
+             <a href="./assets/docs/Shubham Tapadiya Resume.pdf" target="_blank" rel="noopener noreferrer">
               <motion.button
                 className="px-8 py-3 text-white font-bold rounded-lg bg-gradient-to-r from-yellow-500 via-yellow-400 to-yellow-500 hover:from-yellow-600 hover:to-yellow-600 shadow-lg transformation"
                 whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(253, 224, 71, 0.6)" }}
@@ -156,7 +156,7 @@ export default function About() {
             <img
               className="object-cover object-center rounded-lg shadow-2xl"
               alt="hero"
-              src="./Images/coding.svg"
+              src="./assets/images/coding.svg"
             />
             {/* Glow effect */}
             <div className="absolute inset-0 rounded-lg bg-gradient-to-t from-green-400 to-transparent opacity-10" />
