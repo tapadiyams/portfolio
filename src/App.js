@@ -17,18 +17,31 @@ export default function App() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="pt-28 md:pt-32 pb-8 bg-white border-b border-gray-100 sticky top-12 z-40"
+        className="pt-20 md:pt-24 pb-12 bg-white"
       >
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">
             Shubham Tapadiya
           </h1>
-          <p className="text-gray-600 text-base">
+          <p className="text-gray-600 text-base mb-6">
             Senior Software Engineer | Cloud & Distributed Systems
           </p>
-          <p className="text-gray-500 text-sm mt-2">
-            Austin, TX | H1B Visa
-          </p>
+
+          {/* Navigation Links under subtitle */}
+          <nav className="flex gap-6 md:gap-8">
+            <a href="#about" className="text-gray-700 hover:text-gray-900 text-sm font-medium transition-colors">
+              about
+            </a>
+            <a href="#experiences" className="text-gray-700 hover:text-gray-900 text-sm font-medium transition-colors">
+              experience
+            </a>
+            <a href="./assets/docs/Shubham Tapadiya Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 text-sm font-medium transition-colors">
+              resume
+            </a>
+            <a href="#contact" className="text-gray-700 hover:text-gray-900 text-sm font-medium transition-colors">
+              contact
+            </a>
+          </nav>
         </div>
       </motion.header>
 
