@@ -1,43 +1,39 @@
 // src/App.js
 
-import React, { useState, useEffect } from "react";
+import React from "react";
+import { motion } from "framer-motion";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Experiences from "./components/Experiences";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import MarioCharacter from "./components/MarioCharacter";
-import VisualEffects from "./components/VisualEffects";
 
 export default function App() {
-  const [currentSection, setCurrentSection] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const sections = document.querySelectorAll("section");
-      const scrollPosition = window.scrollY + window.innerHeight / 3;
-
-      sections.forEach((section, index) => {
-        const sectionTop = section.offsetTop;
-        const sectionBottom = sectionTop + section.offsetHeight;
-        if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-          setCurrentSection(index);
-        }
-      });
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
-    <main className="text-gray-400 bg-gray-900 body-font relative overflow-hidden">
-      <VisualEffects />
+    <main className="text-gray-800 bg-white body-font">
       <Navbar />
-      <MarioCharacter currentSection={currentSection} />
+
+      {/* Header Section with Name */}
+      <motion.header
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="pt-28 md:pt-32 pb-8 bg-white border-b border-gray-100 sticky top-12 z-40"
+      >
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-2">
+            Shubham Tapadiya
+          </h1>
+          <p className="text-gray-600 text-base">
+            Senior Software Engineer | Cloud & Distributed Systems
+          </p>
+          <p className="text-gray-500 text-sm mt-2">
+            Austin, TX | H1B Visa
+          </p>
+        </div>
+      </motion.header>
+
       <About />
       <Experiences />
-      <Projects />
       <Contact />
     </main>
   );

@@ -2,20 +2,32 @@
 
 export const experiences = [
   {
+    title: "Senior Software Engineer",
+    subtitle: "E2Open | Austin, USA",
+    period: "Sept 2025 - Present",
+    description: "Built AI-powered MCP server in Python bridging natural language AI assistants to supply chain platform. Architected high-throughput production system adopted by 30+ enterprise customers, handling 1.5M+ daily requests, reducing over-provisioning costs by 40%. Designed real-time transaction event pipeline ingesting 100% of events into Superset and Snowflake, reducing MTTR by 70%.",
+    tags: ["Python", "Java", "Spring Boot", "Kubernetes", "REST APIs", "gRPC", "AI/LLM"]
+  },
+  {
+    title: "Software Engineer",
+    subtitle: "E2Open | Austin, USA",
+    period: "July 2023 - Aug 2025",
+    description: "Migrated monolithic system to microservices achieving zero downtime and 65% scalability improvement. Implemented GitOps with Flux enhancing efficiency by 55%. Optimized transaction flows by 40% through network analysis. Led Spring/gRPC project enhancing resilience by 80%. Established observability pipeline using Prometheus, Elasticsearch, Grafana improving troubleshooting by 75%.",
+    tags: ["Java", "Spring Boot", "Kubernetes", "Docker", "Jenkins", "Elasticsearch", "Prometheus"]
+  },
+  {
     title: "Software Development Engineer",
-    subtitle: "Amazon Web Services (AWS)",
-    description: "As part of the FSx team, I successfully delivered an OpenZFS SAZ File Server in a cloud environment. I played a key role in developing a highly available file system offering, including configuring data replication between EC2 instances, designing a robust API, and conducting performance testing. I improved operational security through access controls, scoping SLR policies, and conducting security tests. I also optimized SQL queries, performed deep packet inspection, mentored interns, and implemented GitLab for version control. I utilized various AWS services to support the development and deployment of the file server.",
-    image: "",
-    link: "",
-    tags: ["AWS", "Python", "C++", "Kubernetes", "API Design", "Cloud Architecture"]
+    subtitle: "Amazon Web Services (AWS) | Boston, USA",
+    period: "Aug 2021 - June 2023",
+    description: "Delivered OpenZFS SAZ File Server in AWS cloud improving FSx data access speeds by 45%. Architected scalable RESTful API using Java/Spring Boot increasing throughput by 55%. Scoped Service Linked Role policies decreasing security vulnerabilities by 75%. Developed customer UI and internal tracking dashboard boosting operational efficiency by 90%.",
+    tags: ["Java", "AWS", "Spring Boot", "RESTful APIs", "OpenZFS", "EC2"]
   },
   {
     title: "Philanthropic Software Engineer",
-    subtitle: "AJ Investment",
-    description: "I played a key role in expanding an investment central control and configuration system, which allowed for efficient collation of investors and company information to better utilize capital and improve overall profitability. Additionally, I containerized the application using Kubernetes, resulting in improved scalability and fault tolerance, and contributing to cost reductions. I also participated in a team project focused on analyzing current market investments using pre-existing software.",
-    image: "",
-    link: "",
-    tags: ["Kubernetes", "Docker", "React", "Node.js", "Database Design", "System Architecture"]
+    subtitle: "AJ Investment | Mumbai, India",
+    period: "Jan 2018 - June 2019",
+    description: "Built Python investment system with Oracle database boosting profitability by 75%. Containerized applications with Kubernetes improving scalability by 80% and reducing costs by 35%. Integrated Spring Boot and JPA for PostgreSQL market analysis improving query speed by 60%.",
+    tags: ["Python", "Spring Boot", "Kubernetes", "Oracle DB", "PostgreSQL"]
   },
 ];
 
