@@ -19,16 +19,16 @@ export default function App() {
         transition={{ duration: 0.8 }}
         className="pt-20 md:pt-24 pb-12 bg-white"
       >
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">
             Shubham Tapadiya
           </h1>
-          <p className="text-gray-600 text-base mb-6">
+          <p className="text-gray-600 text-base mb-8">
             Senior Software Engineer | Cloud & Distributed Systems
           </p>
 
-          {/* Navigation Links under subtitle */}
-          <nav className="flex gap-6 md:gap-8">
+          {/* Navigation Links under subtitle - centered */}
+          <nav className="flex justify-center gap-8 md:gap-12">
             <a href="#about" className="text-gray-700 hover:text-gray-900 text-sm font-medium transition-colors">
               about
             </a>
