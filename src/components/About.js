@@ -35,9 +35,9 @@ export default function About() {
             >
               <h2 className="text-3xl font-bold text-gray-700 mb-6">About</h2>
               <p className="text-gray-600 leading-relaxed text-base">
-                I'm a seasoned software engineer passionate about building elegant, scalable systems that solve real-world problems. Beyond code, I'm deeply inspired by travel and exploration—discovering new cultures shapes how I think about design and problem-solving. I'm an avid woodworker, finding meditative clarity in crafting with my hands, and I have a growing fascination with Phad Art, the traditional Rajasthani folk art form that beautifully blends storytelling with intricate visual design.
+                I'm a traveler, woodworker, and passionate learner inspired by cultures and traditions around the world, particularly Phad Art, the beautiful Rajasthani folk art form that blends storytelling with intricate visual design. I believe great engineering mirrors this approach: balancing complexity with elegance, innovation with purpose.
                 <br /><br />
-                With proven expertise in architecting distributed systems, cloud solutions, and performance optimization at E2Open and AWS, I've successfully led projects that improved system efficiency, scalability, and security at scale. My technical foundation in Java, Python, and DevOps complements my belief that great engineering is about balance—between innovation and elegance, complexity and simplicity. I'm committed to leveraging these skills to drive meaningful technological advancement.
+                By day, I architect distributed systems and cloud solutions at E2Open and AWS, leading projects that scaled systems to millions of daily requests while improving efficiency, security, and reliability. My foundation in Java, Python, and DevOps shapes how I solve problems. Ultimately, I build software the way I approach woodworking or travel: with intention, craftsmanship, and deep appreciation for how things fit together.
               </p>
             </motion.div>
           </div>
