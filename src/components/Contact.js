@@ -35,7 +35,7 @@ export default function Contact() {
     <section id="contact" className="py-16 md:py-20 bg-gray-50">
       <AnimatedSection>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-12">Contact</h2>
+          <h2 className="text-3xl font-bold text-gray-700 mb-12">Contact</h2>
 
           <div className="space-y-4">
             {contacts.map((contact, index) => (
@@ -51,21 +51,21 @@ export default function Contact() {
                     href={contact.link}
                     target={contact.link.startsWith('http') ? '_blank' : undefined}
                     rel={contact.link.startsWith('http') ? 'noopener noreferrer' : undefined}
-                    className="block p-4 bg-white rounded-lg border border-gray-200 hover:border-gray-400 hover:shadow-md transition group"
+                    className="block p-4 bg-white rounded-lg border border-gray-100 hover:border-gray-200 hover:shadow-md transition group"
                   >
-                    <span className="text-sm font-semibold text-gray-600 group-hover:text-gray-900">
+                    <span className="text-sm font-semibold text-gray-500 group-hover:text-gray-700">
                       {contact.label}
                     </span>
-                    <p className="text-gray-900 font-medium text-base group-hover:text-blue-600 transition">
+                    <p className="text-gray-700 font-medium text-base group-hover:text-blue-600 transition">
                       {contact.value}
                     </p>
                   </a>
                 ) : (
-                  <div className="p-4 bg-white rounded-lg border border-gray-200">
-                    <span className="text-sm font-semibold text-gray-600">
+                  <div className="p-4 bg-white rounded-lg border border-gray-100">
+                    <span className="text-sm font-semibold text-gray-500">
                       {contact.label}
                     </span>
-                    <p className="text-gray-900 font-medium text-base">
+                    <p className="text-gray-700 font-medium text-base">
                       {contact.value}
                     </p>
                   </div>

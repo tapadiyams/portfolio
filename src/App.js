@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
-    <main className="text-gray-800 bg-white body-font">
+    <main className="text-gray-700 bg-white body-font">
       <Navbar />
 
       {/* Header Section with Name */}
@@ -20,10 +20,10 @@ export default function App() {
         className="pt-20 md:pt-24 pb-12 bg-white"
       >
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-700 mb-3">
             Shubham Tapadiya
           </h1>
-            <p className="text-gray-600 text-lg md:text-xl">
+            <p className="text-gray-500 text-lg md:text-xl">
               Senior Software Engineer. Explorer.
             </p>
 

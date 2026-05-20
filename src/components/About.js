@@ -33,9 +33,11 @@ export default function About() {
               viewport={{ once: true }}
               className="flex-1 w-full md:w-2/3"
             >
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">About</h2>
-              <p className="text-gray-700 leading-relaxed text-base">
-                Seasoned Software Engineer with proven expertise in migrating systems to highly scalable distributed architectures with zero downtime. I specialize in cloud solutions and performance optimization, having successfully led critical projects at E2Open and AWS that significantly improved system efficiencies and security. Leveraging strong technical background in Java, Python, and DevOps, I'm eager to contribute skills to innovative environments. Open to relocation and committed to driving technological advancement and business growth through elegant, scalable solutions.
+              <h2 className="text-3xl font-bold text-gray-700 mb-6">About</h2>
+              <p className="text-gray-600 leading-relaxed text-base">
+                I'm a seasoned software engineer passionate about building elegant, scalable systems that solve real-world problems. Beyond code, I'm deeply inspired by travel and exploration—discovering new cultures shapes how I think about design and problem-solving. I'm an avid woodworker, finding meditative clarity in crafting with my hands, and I have a growing fascination with Phad Art, the traditional Rajasthani folk art form that beautifully blends storytelling with intricate visual design.
+                <br /><br />
+                With proven expertise in architecting distributed systems, cloud solutions, and performance optimization at E2Open and AWS, I've successfully led projects that improved system efficiency, scalability, and security at scale. My technical foundation in Java, Python, and DevOps complements my belief that great engineering is about balance—between innovation and elegance, complexity and simplicity. I'm committed to leveraging these skills to drive meaningful technological advancement.
               </p>
             </motion.div>
           </div>
