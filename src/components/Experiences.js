@@ -13,7 +13,7 @@ export default function Experiences() {
   };
 
   return (
-    <section id="experiences" className="bg-white py-16 md:py-20">
+    <section id="experiences" className="bg-white py-16 md:py-20 border-t border-gray-200">
       <AnimatedSection>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-700 mb-12">Experience</h2>

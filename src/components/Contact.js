@@ -52,9 +52,11 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="py-16 md:py-20 bg-gray-50">
+    <section id="contact" className="py-16 md:py-20 bg-gray-50 border-t border-gray-200">
       <AnimatedSection>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          <h2 className="text-3xl font-bold text-gray-700 mb-12">Contact</h2>
 
           <div className="space-y-4 mb-12">
             {contacts.map((contact, index) => (
