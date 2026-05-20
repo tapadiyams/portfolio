@@ -23,7 +23,7 @@ export default function App() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-700 mb-3">
             Shubham Tapadiya
           </h1>
-            <p className="text-gray-500 text-sm md:text-xl">
+            <p className="text-base md:text-lg text-gray-500">
               Senior Software Engineer. Explorer.
             </p>
 
