@@ -37,7 +37,7 @@ export default function About() {
               <p className="text-gray-600 leading-relaxed text-base">
                 I'm a traveler, woodworker, and passionate learner inspired by cultures and traditions around the world, particularly Phad Art, the beautiful Rajasthani folk art form that blends storytelling with intricate visual design. I believe great engineering mirrors this approach: balancing complexity with elegance, innovation with purpose.
                 <br /><br />
-                By day, I architect distributed systems and cloud solutions at E2Open and AWS, leading projects that scaled systems to millions of daily requests while improving efficiency, security, and reliability. My foundation in Java, Python, and DevOps shapes how I solve problems. Ultimately, I build software the way I approach woodworking or travel: with intention, craftsmanship, and deep appreciation for how things fit together.
+                By day, I architect distributed systems and cloud solutions at E2Open, leading projects that scaled systems to millions of daily requests while improving efficiency, security, and reliability. My foundation in Java, Python, and DevOps shapes how I solve problems. Ultimately, I build software the way I approach woodworking or travel: with intention, craftsmanship, and deep appreciation for how things fit together.
               </p>
             </motion.div>
           </div>
