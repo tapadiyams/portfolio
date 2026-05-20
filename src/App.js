@@ -24,7 +24,7 @@ export default function App() {
             Shubham Tapadiya
           </h1>
             <p className="text-gray-600 text-lg md:text-xl">
-              Senior Software Engineer. Cloud & Distributed Systems. Explorer.
+              Senior Software Engineer. Explorer.
             </p>
 
           {/* Navigation Links under subtitle - centered */}
