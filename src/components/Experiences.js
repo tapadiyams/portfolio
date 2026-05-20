@@ -4,6 +4,14 @@ import { experiences } from "../data";
 import AnimatedSection from "./AnimatedSection";
 
 export default function Experiences() {
+  const skills = {
+    'Languages': ['Java', 'Python', 'C', 'Go', 'Bash Scripting', 'JSON'],
+    'Databases': ['MongoDB', 'Oracle', 'PostgreSQL'],
+    'Web & Frameworks': ['React.js', 'Angular.js', 'Node.js', 'Spring Boot'],
+    'DevOps & Cloud': ['AWS', 'Docker', 'Kubernetes', 'Jenkins', 'Git', 'Linux'],
+    'Tools & Monitoring': ['Grafana', 'Prometheus', 'Elasticsearch', 'Wireshark', 'JMeter']
+  };
+
   return (
     <section id="experiences" className="bg-white py-16 md:py-20">
       <AnimatedSection>
@@ -46,6 +54,38 @@ export default function Experiences() {
               </motion.div>
             ))}
           </div>
+
+          {/* Technical Skills Section */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="mt-16 pt-12 border-t border-gray-200"
+          >
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">Technical Skills</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {Object.entries(skills).map(([category, items], index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.1 * index }}
+                  viewport={{ once: true }}
+                  className="bg-gray-50 p-5 rounded-lg"
+                >
+                  <h4 className="font-bold text-gray-900 mb-3 text-sm">{category}</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {items.map((skill, i) => (
+                      <span key={i} className="px-2.5 py-1 bg-gray-200 text-gray-700 rounded text-xs font-medium">
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
         </div>
       </AnimatedSection>
     </section>

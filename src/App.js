@@ -23,9 +23,9 @@ export default function App() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3">
             Shubham Tapadiya
           </h1>
-          <p className="text-gray-600 text-base mb-8">
-            Senior Software Engineer | Cloud & Distributed Systems
-          </p>
+            <p className="text-gray-600 text-lg md:text-xl">
+              Senior Software Engineer. Cloud & Distributed Systems. Explorer.
+            </p>
 
           {/* Navigation Links under subtitle - centered */}
           <nav className="flex justify-center gap-8 md:gap-12">

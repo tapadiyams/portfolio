@@ -24,7 +24,7 @@ export default function About() {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="flex-shrink-0 w-48 h-48 md:w-56 md:h-56 rounded-lg overflow-hidden shadow-lg"
+              className="flex-shrink-0 w-32 h-32 md:w-40 md:h-40 rounded-lg overflow-hidden shadow-lg"
             >
               <img
                 src="./assets/images/my_pic.jpeg"
